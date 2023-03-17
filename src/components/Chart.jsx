@@ -2,23 +2,20 @@ import React, { PureComponent } from 'react';
 import { PieChart, Pie, Sector, Cell, ResponsiveContainer } from 'recharts';
 
 const data = [
-    { name: 'Group A', value: 600 },
-    { name: 'Group B', value: 100 },
-    { name: 'Group C', value: 100 },
-    { name: 'Group D', value: 200 },
-
+    { name: 'Group A', value: 400 },
+    { name: 'Group B', value: 300 },
+    { name: 'Group C', value: 300 },
 ];
-const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042'];
+const COLORS = ['#2952CC', '#FF4C5E', '#848FAC'];
 
 export default class Example extends PureComponent {
+
     render() {
         return (
-            <PieChart width={800} height={400} onMouseEnter={this.onPieEnter}>
+            <PieChart width={160} height={160} onMouseEnter={this.onPieEnter}>
                 <Pie
                     data={data}
-                    cx={120}
-                    cy={200}
-                    innerRadius={60}
+                    innerRadius={55}
                     outerRadius={80}
                     fill="#8884d8"
                     paddingAngle={5}
