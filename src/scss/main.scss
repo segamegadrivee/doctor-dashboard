@@ -1,10 +1,14 @@
 /* Base styles */
-@import 'global/global';
+
 @import 'global/reset';
+@import 'global/global';
 @import 'global/variables';
 @import 'global/typography';
 
+
 /* Layout styles */
+@import 'layout/dashboard';
+
 
 /* Component styles */
 

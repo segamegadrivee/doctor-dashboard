@@ -1,4 +1,21 @@
+html {
+    font-family: 'Nunito', sans-serif ;
+    font-family: 'Urbanist', sans-serif ;
+    font-weight: 400 ;
+    box-sizing: border-box;
+}
+
 body {
-    font-family: 'Urbanist', sans-serif;
-    font-weight: 400;
+    min-width: 375px;
+    overflow-x: hidden;
+}
+
+
+.container{
+    padding: 60px 24px;
+}
+
+.section{
+    border: 1px solid #DFE8F6;
+    border-radius: 8px;
 }
