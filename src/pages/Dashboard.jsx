@@ -41,9 +41,10 @@ let Dashboard = () => {
 
 
             <div className="dashboard__earned section">
-                <span className="earned__title headline-900">
+                <span className="earned__title headline-800">
                     Money Earned
                 </span>
+
                 <div className="chart">
                     <BarChart />
                 </div>

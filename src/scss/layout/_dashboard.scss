@@ -1,4 +1,9 @@
 .dashboard {
+    &__container{
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
     &__piechart {
         padding: 23px 16px;
         display: flex;
@@ -58,5 +63,13 @@
 
 .dashboard__earned {
     padding: 21px 15px;
-
+    display: flex;
+    flex-direction: column;
+    gap:35px;
 }
+
+// .earned{
+//     &__title{
+      
+//     }
+// }

@@ -14,36 +14,32 @@ import {
 const data = [
     {
         name: "Jun",
-        uv: 4000,
         income: 2400,
-        amt: 2400
+
     },
     {
         name: "Jul",
-        uv: 3000,
+
         income: 1398,
-        amt: 2210
+
     },
     {
         name: "Aug",
-        uv: 2000,
+
         income: 9000,
-        amt: 2290
+
     },
     {
         name: "Sep",
-        uv: 2780,
+
         income: 3908,
-        amt: 2000
+
     },
     {
         name: "Oct",
         income: 4800,
     },
-    {
-        name: "Nov",
-        income: 3800,
-    },
+
 
 ];
 
