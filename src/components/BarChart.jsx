@@ -13,47 +13,38 @@ import {
 
 const data = [
     {
-        name: "Page A",
+        name: "Jun",
         uv: 4000,
-        pv: 2400,
+        income: 2400,
         amt: 2400
     },
     {
-        name: "Page B",
+        name: "Jul",
         uv: 3000,
-        pv: 1398,
+        income: 1398,
         amt: 2210
     },
     {
-        name: "Page C",
+        name: "Aug",
         uv: 2000,
-        pv: 9000,
+        income: 9000,
         amt: 2290
     },
     {
-        name: "Page D",
+        name: "Sep",
         uv: 2780,
-        pv: 3908,
+        income: 3908,
         amt: 2000
     },
     {
-        name: "Page E",
-        uv: 1890,
-        pv: 4800,
-        amt: 2181
+        name: "Oct",
+        income: 4800,
     },
     {
-        name: "Page F",
-        uv: 2390,
-        pv: 3800,
-        amt: 2500
+        name: "Nov",
+        income: 3800,
     },
-    // {
-    //     name: "Page G",
-    //     uv: 3490,
-    //     pv: 4300,
-    //     amt: 2100
-    // }
+
 ];
 
 export default function App() {
@@ -67,10 +58,10 @@ export default function App() {
                     }}
                 >
                     <CartesianGrid opacity={0.5} strokeDasharray="3 3" />
-                    <XAxis dataKey="name" />
+                    <XAxis dataKey="name" fontSize={15} />
                     <YAxis />
                     <Tooltip />
-                    <Bar dataKey="pv" fill="#56CCF2" barSize={28} radius={[4, 4, 0, 0]} />
+                    <Bar dataKey="income" opacity={0.9} fill="#56CCF2" barSize={28} radius={[4, 4, 0, 0]} />
                 </BarChart >
             </ResponsiveContainer>
         </div>
