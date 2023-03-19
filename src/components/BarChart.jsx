@@ -48,12 +48,12 @@ const data = [
         pv: 3800,
         amt: 2500
     },
-    {
-        name: "Page G",
-        uv: 3490,
-        pv: 4300,
-        amt: 2100
-    }
+    // {
+    //     name: "Page G",
+    //     uv: 3490,
+    //     pv: 4300,
+    //     amt: 2100
+    // }
 ];
 
 export default function App() {
@@ -66,11 +66,11 @@ export default function App() {
 
                     }}
                 >
-                    <CartesianGrid strokeDasharray="3 3" />
+                    <CartesianGrid opacity={0.5} strokeDasharray="3 3" />
                     <XAxis dataKey="name" />
                     <YAxis />
                     <Tooltip />
-                    <Bar dataKey="pv" fill="#8884d8" />
+                    <Bar dataKey="pv" fill="#56CCF2" barSize={28} radius={[4, 4, 0, 0]} />
                 </BarChart >
             </ResponsiveContainer>
         </div>
