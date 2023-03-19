@@ -44,5 +44,18 @@
         height: 16px;
         background-color: #2952cc;
         border-radius: 100%;
+        &--red{
+            background-color: #FF4C5E;
+        }
+        &--grey{
+            background-color: #848FAC;
+        }
     }
+}
+
+
+
+
+.dashboard__earned {
+    padding: 21px 15px;
 }
