@@ -69,7 +69,7 @@ export default function App() {
                     <CartesianGrid strokeDasharray="3 3" />
                     <XAxis dataKey="name" />
                     <YAxis />
-                    {/* <Tooltip /> */}
+                    <Tooltip />
                     <Bar dataKey="pv" fill="#8884d8" />
                 </BarChart >
             </ResponsiveContainer>
