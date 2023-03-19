@@ -4,7 +4,6 @@ import {
 
     BarChart,
     Bar,
-    Legend,
     XAxis,
     YAxis,
     CartesianGrid,
@@ -28,7 +27,7 @@ const data = [
     {
         name: "Page C",
         uv: 2000,
-        pv: 9800,
+        pv: 9000,
         amt: 2290
     },
     {
@@ -64,19 +63,15 @@ export default function App() {
                 <BarChart
                     data={data}
                     margin={{
-                        top: 5,
-                        right: 30,
-                        left: 20,
-                        bottom: 5
+
                     }}
                 >
                     <CartesianGrid strokeDasharray="3 3" />
                     <XAxis dataKey="name" />
                     <YAxis />
-                    <Tooltip />
-                    <Legend />
+                    {/* <Tooltip /> */}
                     <Bar dataKey="pv" fill="#8884d8" />
-                </BarChart>
+                </BarChart >
             </ResponsiveContainer>
         </div>
     );
