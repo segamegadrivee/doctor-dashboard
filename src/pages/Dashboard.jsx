@@ -25,13 +25,13 @@ let Dashboard = () => {
                     </div>
 
                     <div className="data__column">
-                        <div className="data__circle data__circle--grey"></div>
+                        <div className="data__circle data__circle"></div>
                         <p className='data__text-category'>Check-up</p>
                         <p className='data__text-percent headline-800' >41.18%</p>
                     </div>
 
                     <div className="data__column">
-                        <div className="data__circle"></div>
+                        <div className="data__circle data__circle--grey"></div>
                         <p className='data__text-category'>Others</p>
                         <p className='data__text-percent headline-800'>26%</p>
                     </div>
@@ -92,6 +92,8 @@ let Dashboard = () => {
                     </div>
 
                 </div>
+
+
 
             </div>
         </div>

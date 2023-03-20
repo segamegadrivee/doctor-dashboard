@@ -2,9 +2,9 @@ import React, { PureComponent } from 'react';
 import { PieChart, Pie, Sector, Cell, ResponsiveContainer } from 'recharts';
 
 const data = [
-    { name: 'Group A', value: 400 },
-    { name: 'Group B', value: 300 },
-    { name: 'Group C', value: 300 },
+    { name: 'CheckUp', value: 41.18 },
+    { name: 'Treatment', value: 32.82 },
+    { name: 'Others', value: 26 },
 ];
 const COLORS = ['#2952CC', '#FF4C5E', '#848FAC'];
 
