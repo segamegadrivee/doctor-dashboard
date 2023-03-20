@@ -71,22 +71,22 @@ let Dashboard = () => {
                         </div>
                     </div>
 
-                    <div className="details__appointment details__bar headline-500">
+                    <div className="details__appointment details__bar headline-800">
                         <p>Patient</p>
                         <p>Diabetes Control Appointment</p>
                     </div>
 
-                    <div className="details__date details__bar headline-500 ">
+                    <div className="details__date details__bar headline-800 ">
                         <p>Date</p>
-                        <p> dec 14, 2021</p>
+                        <p> Dec 14, 2023</p>
                     </div>
 
-                    <div className="details__total details__bar headline-500">
+                    <div className="details__total details__bar headline-800">
                         <p>Total</p>
                         <p>$487</p>
                     </div>
 
-                    <div className="details__paymentmethod details__bar headline-500" >
+                    <div className="details__paymentmethod details__bar headline-800" >
                         <p>Pay with</p>
                         <p>Google Pay</p>
                     </div>
