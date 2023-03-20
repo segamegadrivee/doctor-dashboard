@@ -45,14 +45,47 @@ let Dashboard = () => {
                     Money Earned
                 </span>
 
-                <div className="chart">
+                <div className="earned__chart">
                     <BarChart />
                 </div>
 
-
             </div>
 
-            <div className="dashboard__payment">
+            <div className="dashboard__payment section">
+                <span className='payment__title headline-800'> Recent payment</span>
+
+
+                <div className="payment__details">
+
+                    <div className="details__patient">
+                        <div className="patient__left">
+                            <img className='patient__photo' src="https://randomuser.me/api/portraits/men/73.jpg" alt="" />
+                            <div className="patient__nameid">
+                                <span className='patient__name headline-800'>Mr.Scott Mctominay</span>
+                                <span className='patient__id id'>#DOC8231</span>
+                            </div>
+                        </div>
+
+                        <div className="patient__status">
+                            <p>Succes</p>
+                        </div>
+                    </div>
+
+                    <div className="details__appointment">
+                        Diabetes Control Appointment
+                    </div>
+
+                    <div className="details__date">
+                        dec 14, 2021
+                    </div>
+
+                    <div className="details__total">
+
+                    </div>
+
+                    <div className="details__paymentmethod"></div>
+
+                </div>
 
             </div>
         </div>
