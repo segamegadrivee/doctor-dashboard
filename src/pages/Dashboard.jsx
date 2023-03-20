@@ -71,19 +71,25 @@ let Dashboard = () => {
                         </div>
                     </div>
 
-                    <div className="details__appointment">
-                        Diabetes Control Appointment
+                    <div className="details__appointment details__bar ">
+                        <p>Patient</p>
+                        <p>Diabetes Control Appointment</p>
                     </div>
 
-                    <div className="details__date">
-                        dec 14, 2021
+                    <div className="details__date details__bar ">
+                        <p>Date</p>
+                        <p> dec 14, 2021</p>
                     </div>
 
-                    <div className="details__total">
-
+                    <div className="details__total details__bar">
+                        <p>Total</p>
+                        <p>$487</p>
                     </div>
 
-                    <div className="details__paymentmethod"></div>
+                    <div className="details__paymentmethod details__bar">
+                        <p>Pay with</p>
+                        <p>Google Pay</p>
+                    </div>
 
                 </div>
 

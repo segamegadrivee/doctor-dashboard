@@ -90,11 +90,22 @@
         justify-content: space-between;
         align-items: center;
     }
+
+    &__bar{
+        background-color: #EFF3FA;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 14px 12px;
+        border-radius: 8px;
+        font-size: 10px;
+    }
 }
 
 
 .patient {
-    
+  
+
     &__photo{
         height: 32px;
         border-radius: 100%;
@@ -128,3 +139,4 @@
         font-weight: 500;
     }
 }
+
