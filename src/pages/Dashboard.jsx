@@ -1,5 +1,6 @@
 import PieChart from '../components/PieChart'
 import BarChart from '../components/BarChart'
+import Appointment from './Appointment'
 
 
 
@@ -136,8 +137,49 @@ let Dashboard = () => {
                 </div>
 
 
+                <div className="payment__details">
+
+                    <div className="details__patient">
+                        <div className="patient__left">
+                            <img className='patient__photo' src="https://randomuser.me/api/portraits/men/66.jpg" alt="" />
+                            <div className="patient__nameid">
+                                <span className='patient__name headline-800'>Mr.Rekt Gustian</span>
+                                <span className='patient__id id'>#DOC7189</span>
+                            </div>
+                        </div>
+
+                        <div className="patient__status patient__status--failed">
+                            <p>Failed</p>
+                        </div>
+                    </div>
+
+                    <div className="details__appointment details__bar headline-800">
+                        <p>Patient</p>
+                        <p>Medical Check-up</p>
+                    </div>
+
+                    <div className="details__date details__bar headline-800 ">
+                        <p>Date</p>
+                        <p> Dec 15, 2023</p>
+                    </div>
+
+                    <div className="details__total details__bar headline-800">
+                        <p>Total</p>
+                        <p>$624</p>
+                    </div>
+
+                    <div className="details__paymentmethod details__bar headline-800" >
+                        <p>Pay with</p>
+                        <p>Credit Card</p>
+                    </div>
+
+                </div>
+
+
 
             </div>
+
+            <Appointment />
         </div>
 
 
