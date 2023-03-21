@@ -4,6 +4,7 @@ import {
     Scheduler,
     WeekView,
     Appointments,
+    AppointmentTooltip,
 } from '@devexpress/dx-react-scheduler-material-ui';
 import { ViewState } from '@devexpress/dx-react-scheduler';
 
@@ -29,6 +30,7 @@ const Appointment = () => (
         <ViewState defaultCurrentDate={new Date()} />
         <WeekView startDayHour={9} endDayHour={18} />
         <Appointments />
+        <AppointmentTooltip />
     </Scheduler>
 );
 
