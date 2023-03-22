@@ -1,6 +1,5 @@
 import PieChart from '../components/PieChart'
 import BarChart from '../components/BarChart'
-import Appointment from './Appointment'
 
 
 
@@ -179,7 +178,6 @@ let Dashboard = () => {
 
             </div>
 
-            <Appointment />
         </div>
 
 

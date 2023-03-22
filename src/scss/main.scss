@@ -1,14 +1,13 @@
 /* Base styles */
 
-@import 'global/reset';
-@import 'global/global';
-@import 'global/variables';
-@import 'global/typography';
-
+@import "global/reset";
+@import "global/global";
+@import "global/variables";
+@import "global/typography";
 
 /* Layout styles */
-@import 'layout/dashboard';
-
+@import "layout/dashboard";
+@import "layout/appointment";
 
 /* Component styles */
 

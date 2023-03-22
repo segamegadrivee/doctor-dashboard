@@ -1,155 +1,144 @@
 .dashboard {
-    &__container{
-        display: flex;
-        flex-direction: column;
-        gap: 32px;
-       
-    }
-    &__piechart {
-        padding: 23px 16px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 35px;
-    }
-    &__title {
-        font-size: 16px;
-    }
+  &__container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  &__piechart {
+    padding: 23px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+  }
+  &__title {
+    font-size: 18px;
+  }
 
-    &__payment{
-        padding: 23px 16px;
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-    }
+  &__payment {
+    padding: 23px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
 }
 
-
-
 .piechart {
-    &__title {
-        width: 100%;
-        display: flex;
-        justify-content: flex-start;
-    }
+  &__title {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+  }
 
-    &__data {
-        display: flex;
-        gap: 35px;
-    }
+  &__data {
+    display: flex;
+    gap: 35px;
+  }
 }
 
 .data {
-    &__column {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 15px;
-    }
+  &__column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
 
-    &__text-category {
-        font-weight: 500;
-        font-size: 12px;
-        color: #a3abc1;
-    }
+  &__text-category {
+    font-weight: 500;
+    font-size: 12px;
+    color: #a3abc1;
+  }
 
-    &__circle {
-        width: 16px;
-        height: 16px;
-        background-color: #2952cc;
-        border-radius: 100%;
-        &--red{
-            background-color: #FF4C5E;
-        }
-        &--grey{
-            background-color: #848FAC;
-        }
+  &__circle {
+    width: 16px;
+    height: 16px;
+    background-color: #2952cc;
+    border-radius: 100%;
+    &--red {
+      background-color: #ff4c5e;
     }
+    &--grey {
+      background-color: #848fac;
+    }
+  }
 }
-
-
-
 
 .dashboard__earned {
-    padding: 21px 15px;
+  padding: 21px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.payment__details {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-top: 2px solid #e7eef8;
+}
+
+.details {
+  &__patient {
     display: flex;
-    flex-direction: column;
-    gap:35px;
-}
+    justify-content: space-between;
+    align-items: center;
+  }
 
-
-.payment__details{
+  &__bar {
+    background-color: #eff3fa;
     display: flex;
-    flex-direction: column;
-    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 12px;
+    border-radius: 8px;
+    font-size: 12px;
+  }
 }
-
-.details{
-    &__patient{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    &__bar{
-        background-color: #EFF3FA;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 14px 12px;
-        border-radius: 8px;
-        font-size: 12px;
-    }
-}
-
 
 .patient {
-  
+  &__photo {
+    height: 32px;
+    border-radius: 100%;
+    border: 1px solid #e7eef8;
+  }
 
-    &__photo{
-        height: 32px;
-        border-radius: 100%;
-        border: 1px solid #E7EEF8;
+  &__nameid {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  &__name {
+    font-size: 14px;
+  }
+
+  &__left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  }
+
+  &__status {
+    padding: 10px 10px;
+    border-radius: 8px;
+    color: #1b6362;
+    font-size: 12px;
+    font-weight: 500;
+
+    &--success {
+      background-color: $success;
     }
 
-    &__nameid{
-        display: flex;
-        flex-direction: column;
-        gap: 5px;
+    &--pending {
+      background-color: $pending;
     }
 
-
-    &__name{
-        font-size: 14px;
+    &--failed {
+      background-color: $failed;
     }
-
-    &__left{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 10px;
-    }
-
-    &__status{
-        padding: 10px 10px;
-        border-radius: 8px;
-        color: #1B6362;
-        font-size: 12px;
-        font-weight: 500;
-
-
-        &--success{
-            background-color: $success;
-        }
-
-        &--pending{
-            background-color: $pending;
-        }
-
-        &--failed{
-            background-color: $failed;
-        }
-    }
+  }
 }
-

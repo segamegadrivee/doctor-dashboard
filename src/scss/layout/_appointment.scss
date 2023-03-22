@@ -1,0 +1,15 @@
+.appointment{
+    &__title{
+        font-size: 18px;
+        padding-bottom: 20px;
+        border-bottom: 2px solid #e7eef8;
+
+    }
+
+    &__container{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+}
