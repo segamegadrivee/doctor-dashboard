@@ -72,7 +72,7 @@ const appointments = [
 const Schedule = () => (
     <Scheduler data={appointments}>
         <ViewState defaultCurrentDate={new Date()} />
-        <DayView startDayHour={9} endDayHour={18} intervalCount={9} />
+        <DayView startDayHour={9} endDayHour={18} intervalCount={3} />
         <Appointments />
         <AppointmentTooltip />
         {/* contentComponent={AppointmentTooltipContent} */}
