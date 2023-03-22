@@ -7,7 +7,7 @@ import Appointment from './pages/Appointment';
 function App() {
   return (
     <div className="App">
-      {/* <Dashboard /> */}
+      <Dashboard />
       <Appointment />
     </div>
   )
