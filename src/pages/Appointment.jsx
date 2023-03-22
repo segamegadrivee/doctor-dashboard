@@ -2,9 +2,11 @@ import * as React from 'react';
 import {
     AppointmentModel,
     Scheduler,
-    WeekView,
+    DayView,
     Appointments,
     AppointmentTooltip,
+    DateNavigator,
+    Toolbar,
 } from '@devexpress/dx-react-scheduler-material-ui';
 import { ViewState } from '@devexpress/dx-react-scheduler';
 
@@ -25,12 +27,20 @@ const appointments = [
     },
 ];
 
+
 const Appointment = () => (
     <Scheduler data={appointments}>
         <ViewState defaultCurrentDate={new Date()} />
-        <WeekView startDayHour={9} endDayHour={18} />
+        <DayView
+            startDayHour={9}
+            endDayHour={18}
+            intervalCount={4}
+        />
         <Appointments />
-        <AppointmentTooltip />
+        <AppointmentTooltip showCloseButton />
+        <Toolbar />
+        <DateNavigator />
+
     </Scheduler>
 );
 
