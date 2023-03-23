@@ -1,0 +1,67 @@
+.transaction{
+
+    &__title{
+        font-size: 18px;
+        padding-bottom: 15px;
+        border-bottom: 2px solid #e7eef8;
+
+    }
+
+    &__container{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    &__total{
+        padding: 23px;
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+    }
+
+   
+}
+
+.total{
+    &__icon { 
+        padding: 14px;
+        border-radius: 100%;
+        box-shadow: 4px 16px 32px rgba(70, 87, 147, 0.12);
+    }
+
+    &__percent{
+        color: #52BD94;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    &__header{
+        display: flex;
+        gap: 20px;
+    }
+
+    &__header-right{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__lastyear{
+        color:#B2B9CB;
+    }
+
+    &__footer{
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    &__number{
+        font-size: 18px;
+    }
+
+    &__title{
+        color:#B2B9CB;
+    }
+}
