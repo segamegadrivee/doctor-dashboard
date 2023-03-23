@@ -1,6 +1,7 @@
 import usersIcon from '../assets/svg/Users.svg'
 import percent from '../assets/svg/Discount.svg'
 import activity from '../assets/svg/Activity.svg'
+import BurgerMenu from '../components/BurgerMenu'
 
 let Transaction = () => {
     return (
