@@ -11,7 +11,6 @@ function App() {
   return (
     <div className="App">
 
-
       <Routes>
         <Route path='/' element={<Dashboard />} />
         <Route path='/Appointment' element={<Appointment />} />
@@ -21,8 +20,6 @@ function App() {
 
 
       <BurgerMenu />
-
-
 
 
     </div>
