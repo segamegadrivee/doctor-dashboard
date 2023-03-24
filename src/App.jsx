@@ -11,7 +11,8 @@ function App() {
   return (
     <div className="App">
 
-     <DocProfile/>
+      <Dashboard />
+      <BurgerMenu />
 
     </div>
   )
