@@ -9,6 +9,7 @@
     gap: 10px;
   }
 
+
   &__name{
     font-size: 18px;
   }
@@ -49,4 +50,31 @@
     color: #192252;
     font-weight:500;
   }
+
+  &__description{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 18px;
+  }
+}
+
+.docprofile__description-title{
+  font-size: 18px;
+}
+.docprofile__description-text{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+   p {
+      color: #8C96B1;
+      font-size: 16px;
+      line-height: 22px;
+   }
+
+   ul{
+    list-style: disc;
+   }
 }
