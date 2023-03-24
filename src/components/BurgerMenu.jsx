@@ -3,6 +3,11 @@ import Appointment from '../pages/Appointment';
 import App from "./BarChart";
 
 let BurgerMenu = () => {
+
+    const closeMenu = () => {
+        document.getElementById("menu__toggle").checked = false;
+    }
+
     return (
         <div class="hamburger-menu">
             <input id="menu__toggle" type="checkbox" />
@@ -11,10 +16,10 @@ let BurgerMenu = () => {
             </label>
 
             <ul class="menu__box">
-                <li><Link class="menu__item" to='/'>Home</Link></li>
-                <li><Link class="menu__item" to='/Transaction'>Transactions</Link></li>
-                <li><Link class="menu__item" to='/DocProfile'>My Profile</Link></li>
-                <li><Link class="menu__item" to='/Appointment'>Appointments</Link></li>
+                <li><Link class="menu__item" onClick={closeMenu} to='/'>Home</Link></li>
+                <li><Link class="menu__item" to='/Transaction' onClick={closeMenu}>Transactions</Link></li>
+                <li><Link class="menu__item" to='/DocProfile' onClick={closeMenu}>My Profile</Link></li>
+                <li><Link class="menu__item" to='/Appointment' onClick={closeMenu}>Appointments</Link></li>
             </ul>
         </div>
     )
