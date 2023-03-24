@@ -2,8 +2,10 @@
   
   &__header{
     padding: 18px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
   }
-
+ 
   &__photo{
     display: flex;
     height: 150px;
