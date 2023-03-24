@@ -15,7 +15,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Dashboard />} />
         <Route path='/Appointment' element={<Appointment />} />
-        <Route path='/Docpofile' element={<DocProfile />} />
+        <Route path='/DocProfile' element={<DocProfile />} />
         <Route path='/Transaction' element={<Transaction />} />
       </Routes>
 
