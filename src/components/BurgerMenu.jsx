@@ -12,10 +12,10 @@ let BurgerMenu = () => {
 
             <ul class="menu__box">
 
-                <li> <Link to='/Dashboard'>Home</Link></li>
-                <li><Link to='/Transaction'>Trans</Link></li>
-                <li><a class="menu__item" href="#">Contact</a></li>
-                <li><a class="menu__item" href="#">Twitter</a></li>
+                <li> <Link class="menu__item" to='/Dashboard'>Home</Link></li>
+                <li><Link class="menu__item" to='/Transaction'>Transactions</Link></li>
+                <li><Link class="menu__item" to='/DocProfile'>My Profile</Link></li>
+                <li><Link class="menu__item" to='/Appointment'>Appointments</Link></li>
             </ul>
         </div>
     )
