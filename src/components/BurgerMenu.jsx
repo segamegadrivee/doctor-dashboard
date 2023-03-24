@@ -11,7 +11,7 @@ let BurgerMenu = () => {
             </label>
 
             <ul class="menu__box">
-                <li><Link class="menu__item" to='/Dashboard'>Home</Link></li>
+                <li><Link class="menu__item" to=''>Home</Link></li>
                 <li><Link class="menu__item" to='/Transaction'>Transactions</Link></li>
                 <li><Link class="menu__item" to='/DocProfile'>My Profile</Link></li>
                 <li><Link class="menu__item" to='/Appointment'>Appointments</Link></li>
