@@ -12,11 +12,10 @@ function App() {
     <div className="App">
 
       <Routes>
-        <Route path='/Appointment' element={<Appointment />} />
         <Route path='/Dashboard' element={<Dashboard />} />
+        <Route path='/Appointment' element={<Appointment />} />
         <Route path='/Docpofile' element={<DocProfile />} />
         <Route path='/Transaction' element={<Transaction />} />
-        <Route path='*' element={<h1>404</h1>} />
       </Routes>
 
 
