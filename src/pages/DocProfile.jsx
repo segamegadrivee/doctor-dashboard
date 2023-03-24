@@ -28,23 +28,23 @@ let DocProfile = () => {
 
                     <p>Regardless of your specialty, as a hospital doctor you'll need to:</p>
                     <p>
-                        🖸 monitor and provide general care to
+                        &#8226; monitor and provide general care to
                         patients on hospital wards and in
                         outpatient clinics
                     </p>
 
                     <p>
-                        🖸 admit patients requiring special care,
+                        &#8226; admit patients requiring special care,
                         followed by investigations and treatment
                     </p>
 
                     <p>
-                        🖸 examine and talk to patients to diagnose
+                        &#8226; examine and talk to patients to diagnose
                         their medical conditions
                     </p>
 
                     <p>
-                        🖸 carry out specific procedures, e.g.
+                        &#8226; carry out specific procedures, e.g.
                         performing operations and specialist
                         investigations
                     </p>
