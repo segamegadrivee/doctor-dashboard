@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+import Appointment from '../pages/Appointment';
+import App from "./BarChart";
 
 let BurgerMenu = () => {
     return (
@@ -8,9 +11,9 @@ let BurgerMenu = () => {
             </label>
 
             <ul class="menu__box">
-                <li><a class="menu__item" href="#">Home</a></li>
-                <li><a class="menu__item" href="#">About</a></li>
-                <li><a class="menu__item" href="#">Team</a></li>
+
+                <li> <Link to='/Dashboard'>Home</Link></li>
+                <li><Link to='/Transaction'>Trans</Link></li>
                 <li><a class="menu__item" href="#">Contact</a></li>
                 <li><a class="menu__item" href="#">Twitter</a></li>
             </ul>
