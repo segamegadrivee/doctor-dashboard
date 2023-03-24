@@ -1,4 +1,4 @@
-
+import locationsvg from '../assets/svg/Location.svg'
 
 let DocProfile = () => {
     return (
@@ -8,11 +8,12 @@ let DocProfile = () => {
             </div>
 
             <div className="docprofile__header section">
-
-
-                <span>dr. Selena odette</span>
-                <span>Specialist of skin surgery</span>
-                <div className="docprofile__location"></div>
+                <span className="docprofile__name headline-900">Dr. Selena odette</span>
+                <span className="docprofile__subname">Specialist of skin surgery</span>
+                <div className="docprofile__location">
+                    <img src={locationsvg} alt="img" />
+                    <span className='docprofile__city'>Lublin, Poland</span>
+                </div>
             </div>
 
         </div>

@@ -4,6 +4,18 @@
     padding: 18px;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  &__name{
+    font-size: 18px;
+  }
+
+  &__subname{
+    color: #939DB6;
+    font-size: 15px;
   }
  
   &__photo{
@@ -19,5 +31,22 @@
       border-radius: 100%;
       border: 3px solid #ffffff;
     }
+  }
+
+
+  &__location{
+    padding: 13px;
+    width: 150px;
+    background-color: #EFF3FA;
+    border-radius: 50px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  &__city{
+    font-size: 18px;
+    color: #192252;
+    font-weight:500;
   }
 }
