@@ -1,7 +1,9 @@
 import usersIcon from '../assets/svg/Users.svg'
 import percent from '../assets/svg/Discount.svg'
 import activity from '../assets/svg/Activity.svg'
-import BurgerMenu from '../components/BurgerMenu'
+import patient from '../data/patients.json'
+import DetailsPatient from '../components/DetailsPatient'
+
 
 let Transaction = () => {
     return (
@@ -56,6 +58,16 @@ let Transaction = () => {
                     <span className="total__number headline-800">$124.012K</span>
                     <span className="total__title">Total Income</span>
                 </div>
+
+            </div>
+
+
+            <div className="dashboard__payment section">
+
+                {patient.patients.map((patientData, i) => (
+                    <DetailsPatient key={i} {...patientData} />
+                ))}
+
 
             </div>
 

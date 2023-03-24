@@ -1,44 +1,81 @@
 {
     "patients": [
         {
-            "id": 1,
-            "name": "John",
-            "surname": "Doe",
-            "disease": "Flu",
-            "status_of_payment": "Success",
-            "date_of_reception": "2022-01-15",
-            "total_amount_of_price": 100.50,
-            "payment_method": "Credit Card"
+            "avatar": "https://randomuser.me/api/portraits/women/1.jpg",
+            "name": "Jessica Smith",
+            "id": "PAT0002",
+            "status": "success",
+            "appointmentDetails": "General Checkup",
+            "date": "2023-04-02",
+            "totalAmount": "$50.00",
+            "paymentMethod": "Credit Card",
+            "extraInfo": ""
         },
         {
-            "id": 2,
-            "name": "Jane",
-            "surname": "Doe",
-            "disease": "Broken Arm",
-            "status_of_payment": "Pending",
-            "date_of_reception": "2022-02-02",
-            "total_amount_of_price": 500.00,
-            "payment_method": "Cash"
+            "avatar": "https://randomuser.me/api/portraits/men/2.jpg",
+            "name": "Alex Johnson",
+            "id": "PAT0003",
+            "status": "pending",
+            "appointmentDetails": "Teeth Cleaning",
+            "date": "2023-04-03",
+            "totalAmount": "$85.00",
+            "paymentMethod": "Cash",
+            "extraInfo": "Please reschedule your appointment."
         },
         {
-            "id": 3,
-            "name": "Bob",
-            "surname": "Smith",
-            "disease": "Malaria",
-            "status_of_payment": "Failed",
-            "date_of_reception": "2022-03-10",
-            "total_amount_of_price": 750.25,
-            "payment_method": "Insurance"
+            "avatar": "https://randomuser.me/api/portraits/women/3.jpg",
+            "name": "Emily Lee",
+            "id": "PAT0004",
+            "status": "failed",
+            "appointmentDetails": "Eye Exam",
+            "date": "2023-04-04",
+            "totalAmount": "$60.00",
+            "paymentMethod": "Debit Card",
+            "extraInfo": ""
         },
         {
-            "id": 4,
-            "name": "Mary",
-            "surname": "Johnson",
-            "disease": "Broken Leg",
-            "status_of_payment": "Success",
-            "date_of_reception": "2022-03-18",
-            "total_amount_of_price": 1000.00,
-            "payment_method": "Debit Card"
+            "avatar": "https://randomuser.me/api/portraits/men/4.jpg",
+            "name": "Michael Brown",
+            "id": "PAT0005",
+            "status": "success",
+            "appointmentDetails": "Blood Test",
+            "date": "2023-04-05",
+            "totalAmount": "$90.00",
+            "paymentMethod": "Credit Card",
+            "extraInfo": ""
+        },
+        {
+            "avatar": "https://randomuser.me/api/portraits/women/5.jpg",
+            "name": "Olivia Johnson",
+            "id": "PAT0006",
+            "status": "pending",
+            "appointmentDetails": "Cavity Filling",
+            "date": "2023-04-06",
+            "totalAmount": "$125.00",
+            "paymentMethod": "Cash",
+            "extraInfo": "Please reschedule your appointment."
+        },
+        {
+            "avatar": "https://randomuser.me/api/portraits/men/6.jpg",
+            "name": "William Wilson",
+            "id": "PAT0007",
+            "status": "success",
+            "appointmentDetails": "MRI Scan",
+            "date": "2023-04-07",
+            "totalAmount": "$350.00",
+            "paymentMethod": "Credit Card",
+            "extraInfo": ""
+        },
+        {
+            "avatar": "https://randomuser.me/api/portraits/men/7.jpg",
+            "name": "Ava Martin",
+            "id": "PAT0008",
+            "status": "success",
+            "appointmentDetails": "Physical Therapy",
+            "date": "2023-04-08",
+            "totalAmount": "$150.00",
+            "paymentMethod": "Debit Card",
+            "extraInfo": "Please do not eat or drink anything for 12 hours before your appointment."
         }
     ]
 }

@@ -19,7 +19,7 @@ let DetailsPatient = (props) => {
             </div>
 
             <div className="details__appointment details__bar headline-800">
-                <p>{props.appointmentType}</p>
+                <p>Appointment</p>
                 <p>{props.appointmentDetails}</p>
             </div>
 

@@ -6,16 +6,11 @@ import BurgerMenu from './components/BurgerMenu';
 import DetailsPatient from './components/DetailsPatient';
 
 
-
-
 function App() {
   return (
     <div className="App">
-      {/* <Transaction /> */}
-      {/* <BurgerMenu /> */}
 
-      <Appointment />
-
+      <Transaction />
 
     </div>
   )

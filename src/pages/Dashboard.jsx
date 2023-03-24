@@ -1,18 +1,9 @@
 import PieChart from '../components/PieChart'
 import BarChart from '../components/BarChart'
 import DetailsPatient from '../components/DetailsPatient';
+import patient from '../data/patients.json'
 
-const patient = {
-    "avatar": "https://randomuser.me/api/portraits/men/23.jpg",
-    "name": "Jane Smith",
-    "id": "PAT0002",
-    "status": "success",
-    "appointmentType": "Follow-up",
-    "appointmentDetails": "X-ray",
-    "date": "2023-04-02",
-    "totalAmount": "$85.00",
-    "paymentMethod": "Debit Card",
-};
+
 
 let Dashboard = () => {
     return (
@@ -69,124 +60,9 @@ let Dashboard = () => {
                 <span className='payment__title headline-800'> Recent payment</span>
 
 
-                <div className="payment__details">
-
-                    <div className="details__patient">
-                        <div className="patient__left">
-                            <img className='patient__photo' src="https://randomuser.me/api/portraits/men/73.jpg" alt="" />
-                            <div className="patient__nameid">
-                                <span className='patient__name headline-800'>Mr.Scott Mctominay</span>
-                                <span className='patient__id id'>#DOC8231</span>
-                            </div>
-                        </div>
-
-                        <div className="patient__status patient__status--success">
-                            <p>Succes</p>
-                        </div>
-                    </div>
-
-                    <div className="details__appointment details__bar headline-800">
-                        <p>Patient</p>
-                        <p>Diabetes Control Appointment</p>
-                    </div>
-
-                    <div className="details__date details__bar headline-800 ">
-                        <p>Date</p>
-                        <p> Dec 14, 2023</p>
-                    </div>
-
-                    <div className="details__total details__bar headline-800">
-                        <p>Total</p>
-                        <p>$487</p>
-                    </div>
-
-                    <div className="details__paymentmethod details__bar headline-800" >
-                        <p>Pay with</p>
-                        <p>Google Pay</p>
-                    </div>
-
-                </div>
-
-
-                <div className="payment__details">
-
-                    <div className="details__patient">
-                        <div className="patient__left">
-                            <img className='patient__photo' src="https://randomuser.me/api/portraits/men/69.jpg" alt="" />
-                            <div className="patient__nameid">
-                                <span className='patient__name headline-800'>Mr.Robert Fox</span>
-                                <span className='patient__id id'>#DOC1872</span>
-                            </div>
-                        </div>
-
-                        <div className="patient__status patient__status--pending">
-                            <p>Pending</p>
-                        </div>
-                    </div>
-
-                    <div className="details__appointment details__bar headline-800">
-                        <p>Patient</p>
-                        <p>Root Canal</p>
-                    </div>
-
-                    <div className="details__date details__bar headline-800 ">
-                        <p>Date</p>
-                        <p> Dec 14, 2023</p>
-                    </div>
-
-                    <div className="details__total details__bar headline-800">
-                        <p>Total</p>
-                        <p>$891</p>
-                    </div>
-
-                    <div className="details__paymentmethod details__bar headline-800" >
-                        <p>Pay with</p>
-                        <p>Debit Card</p>
-                    </div>
-
-                </div>
-
-
-                <div className="payment__details">
-
-                    <div className="details__patient">
-                        <div className="patient__left">
-                            <img className='patient__photo' src="https://randomuser.me/api/portraits/men/66.jpg" alt="" />
-                            <div className="patient__nameid">
-                                <span className='patient__name headline-800'>Mr.Rekt Gustian</span>
-                                <span className='patient__id id'>#DOC7189</span>
-                            </div>
-                        </div>
-
-                        <div className="patient__status patient__status--failed">
-                            <p>Failed</p>
-                        </div>
-                    </div>
-
-                    <div className="details__appointment details__bar headline-800">
-                        <p>Patient</p>
-                        <p>Medical Check-up</p>
-                    </div>
-
-                    <div className="details__date details__bar headline-800 ">
-                        <p>Date</p>
-                        <p> Dec 15, 2023</p>
-                    </div>
-
-                    <div className="details__total details__bar headline-800">
-                        <p>Total</p>
-                        <p>$624</p>
-                    </div>
-
-                    <div className="details__paymentmethod details__bar headline-800" >
-                        <p>Pay with</p>
-                        <p>Credit Card</p>
-                    </div>
-
-                </div>
-
-                <DetailsPatient {...patient} />
-
+                {patient.patients.slice(0, 3).map((patientData, i) => (
+                    <DetailsPatient key={i} {...patientData} />
+                ))}
 
 
             </div>
