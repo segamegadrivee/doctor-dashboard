@@ -80,6 +80,11 @@
   border-top: 2px solid #e7eef8;
 }
 
+.payment__details:first-of-type{
+  border-top: none;
+  
+}
+
 .details {
   &__patient {
     display: flex;

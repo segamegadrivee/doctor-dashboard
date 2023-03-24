@@ -63,7 +63,7 @@ let Transaction = () => {
 
 
             <div className="dashboard__payment section">
-
+                <span className='payment__title headline-800'> Payments </span>
                 {patient.patients.map((patientData, i) => (
                     <DetailsPatient key={i} {...patientData} />
                 ))}
