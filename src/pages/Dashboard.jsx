@@ -1,7 +1,18 @@
 import PieChart from '../components/PieChart'
 import BarChart from '../components/BarChart'
+import DetailsPatient from '../components/DetailsPatient';
 
-
+const patient = {
+    "avatar": "https://randomuser.me/api/portraits/men/23.jpg",
+    "name": "Jane Smith",
+    "id": "PAT0002",
+    "status": "success",
+    "appointmentType": "Follow-up",
+    "appointmentDetails": "X-ray",
+    "date": "2023-04-02",
+    "totalAmount": "$85.00",
+    "paymentMethod": "Debit Card",
+};
 
 let Dashboard = () => {
     return (
@@ -173,6 +184,8 @@ let Dashboard = () => {
                     </div>
 
                 </div>
+
+                <DetailsPatient {...patient} />
 
 
 

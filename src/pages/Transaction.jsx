@@ -10,6 +10,7 @@ let Transaction = () => {
 
             <div className="transaction__total section">
                 <div className="total__header">
+
                     <img className="total__icon" src={usersIcon} alt="svg" />
                     <div className="total__header-right">
                         <span className="total__percent">+8.12%</span>

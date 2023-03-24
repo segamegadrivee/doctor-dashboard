@@ -3,6 +3,7 @@ import Dashboard from './pages/Dashboard';
 import Appointment from './pages/Appointment';
 import Transaction from './pages/Transaction';
 import BurgerMenu from './components/BurgerMenu';
+import DetailsPatient from './components/DetailsPatient';
 
 
 
@@ -10,10 +11,10 @@ import BurgerMenu from './components/BurgerMenu';
 function App() {
   return (
     <div className="App">
-      <Transaction />
-      <BurgerMenu />
-      {/* <Dashboard />
-      <Appointment /> */}
+      {/* <Transaction /> */}
+      {/* <BurgerMenu /> */}
+
+      <Appointment />
 
 
     </div>
